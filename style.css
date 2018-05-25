@@ -1,0 +1,18 @@
+ html, body {
+    height: 100%;
+    margin: 0;
+  }
+  body {
+    background: #ccccff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  canvas {
+    border: 3px solid white;
+  }
+  h1{
+    color: #b3b3ff;
+    font-family: verdana;
+    font-size: 300%;
+  }
