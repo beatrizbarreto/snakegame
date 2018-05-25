@@ -48,10 +48,10 @@ function loop() {
     snake.cells.pop();
   }
   // desenha uma maça
-  context.fillStyle = 'red';
+  context.fillStyle = '#ff6666';
   context.fillRect(apple.x, apple.y, grid-1, grid-1);
   // deseja uma cobra
-  context.fillStyle = 'green';
+  context.fillStyle = '#dfbf9f';
   snake.cells.forEach(function(cell, index) {
     context.fillRect(cell.x, cell.y, grid-1, grid-1);
     // a cobra come essa maça
